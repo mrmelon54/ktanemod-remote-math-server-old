@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="//static.onpointcoding.net/jquery/jquery.js"></script>
+  <script src="/module.js?_=1"></script>
+  <link rel="stylesheet" href="/styling.css?_=1">
+</head>
+
+<body>
+  <connecting>
+    <center>Enter connection code:<br><input id="inputcode"></center>
+  </connecting>
+  <disconnected>
+    <center>Disconnected</center>
+    <center>Refresh to try again</center>
+    <center>If this keeps happening check your computer's internet connection</center>
+    <center>If this is still happening please ping MrMelon on the KTaNE Discord</center>
+  </disconnected>
+  <puzzleinvalid>
+    <center>Invalid puzzle code</center>
+    <center>Refresh to try again</center>
+  </puzzleinvalid>
+  <puzzledisconnected>
+    <center>The bomb module disconnected from this session</center>
+    <center>If this keeps happening check the defuser's computer's internet connection</center>
+    <center>If this is still happening please ping MrMelon on the KTaNE Discord</center>
+  </puzzledisconnected>
+  <puzzlecomplete>
+    <center>The bomb module should now show an orange light</center>
+    <center>If so tell the defuser to click the button and the module will solve</center>
+  </puzzlecomplete>
+  <twitchplays>
+    <center>This expert module is locked by Twitch Plays</center>
+    <center>Enter the command !<span id="twitchid"></span> check <span id="twitchcode"></span></center>
+  </twitchplays>
+  <module>
+    <backing></backing>
+    <led></led>
+    <fruits>
+      <fruit p=1></fruit>
+      <fruit p=2></fruit>
+    </fruits>
+    <screen></screen>
+    <buttons>
+      <button b=1>1</button>
+      <button b=4>4</button>
+      <button b=7>7</button>
+      <button b="<">&lt;</button>
+      <button b=2>2</button>
+      <button b=5>5</button>
+      <button b=8>8</button>
+      <button b=0>0</button>
+      <button b=3>3</button>
+      <button b=6>6</button>
+      <button b=9>9</button>
+      <button b="=">=</button>
+      <button b="+">+</button>
+      <button b="−">−</button>
+      <button b="×">×</button>
+      <button b="÷">÷</button>
+    </buttons>
+  </module>
+</body>
+
+</html>

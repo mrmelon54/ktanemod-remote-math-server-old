@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="//static.onpointcoding.net/jquery/jquery.js"></script>
+  <script src="/logs.js"></script>
+</head>
+<body>
+  <label>Year: <input type="number" pattern="[0-9]{4}" id="input-year" placeholder="Any year"></label>
+  <label>Month: <select id="input-month">
+    <option value="*">Any month</option>
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+  </select></label>
+  <label>Day: <input type="number" pattern="[0-9]{1-2}" id="input-day" placeholder="Any day"></label>
+  <label>Code: <input type="text" pattern="[A-Z]{6}" id="input-code" placeholder="Any code"></label>
+  <button id="search-logs">Search</button>
+  <ul id="fileoutput-area"></ul>
+  <textarea id="logoutput-area" style="width:100%;height:calc(100% - 40px);resize:none;" readonly></textarea>
+</body>
+
+</html>
